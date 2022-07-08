@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact</title>
+  <link href="css/reset.css" rel="stylesheet" type="text/css"/>
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital@1&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="content-ALL-contact-page">
+    <!---------- ヘッダー 開始 ---------->
+    <header class="header">
+      <div class="header__inner">
+        <h1 class="header__title header-title">
+          <p>
+            <a href="./index.html#home">Cresta Design</a>
+          </p>
+        </h1>
+        <nav class="header__nav nav" id="js-nav">
+          <ul class="nav__items nav-items">
+            <li class="nav-items__item"><a href="./index.html#concept">Concept</a></li>
+            <li class="nav-items__item"><a href="./index.html#works">Works</a></li>
+            <li class="nav-items__item"><a href="./index.html#service">Service</a></li>
+            <li class="nav-items__item"><a href="./index.html#contact">Contact</a></li>
+          </ul>
+        </nav>
+        
+        
+        <button class="header__hamburger hamburger " id="js-hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </header>
+    <!---------- ヘッダー 終了 ---------->
+    <!---------- contact main 開始 ---------->
+    <div  class="contact-page-img">
+      <p class="contact-page-heading">Contact</p>
+      <div class="contact-page-end">
+        <p>Contact Us</p>
+      </div>
+      <img src="./img/contact-page-bgi@2x.jpg" alt="">
+    </div>
+    <!---------- contact form 開始 ---------->
+    <div class="contact-page-form">
+      <form action="">
+        <div class="form-group">
+          <label>
+            お問い合わせ内容
+          </label>
+          <div class="checkbox-items">
+            <label class="contact-checkbox">
+              <input type="checkbox" name="" id="">資料請求
+            </label>
+            <label class="contact-checkbox">
+              <input type="checkbox">お電話でのご相談をご希望
+            </label>
+            <label class="contact-checkbox">
+              <input type="checkbox">申し込み
+            </label>
+          </div>
+          
+        </div>
+        <div class="form-group">
+          <label>
+            担当者名
+          </label>
+          <input type="text" class="form-control">
+        </div>
+        <div class="form-group">
+          <label>
+            電話番号
+          </label>
+          <input type="text" class="form-control">
+        </div>
+        <div class="form-group">
+          <label>
+            メールアドレス
+          </label>
+          <input type="text" class="form-control">
+        </div>
+        <div class="form-group">
+          <label>
+            その他
+          </label>
+          <textarea name="name" id="" cols="30" rows="10"class="form-control-bg"></textarea>
+        </div>
+        <div class="form-group">
+          <input type="submit" value="Submit" class="contact-page-btn">
+        </div>
+      </form>
+    </div>
+    <footer>
+      <p>&copy; cresta.design all rights reserved</p>
+    </footer>
+    <!---------- contact form 終了 ---------->
+  </div>
+  <!---------- contact main 終了 ---------->
+  <script src="./javascript/script.js"></script>
+</body>
+</html>
